@@ -1,0 +1,55 @@
+.spa_types {
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+      url(../../Assets/spa.jpg);
+    height: 200vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1250px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .spa_types_h2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  .spa_types_text{
+      text-align: center;
+      background-color: #fff;
+      border-radius: 5px;
+      color: #000;
+      flex-direction: column;
+      margin-top: 10px;
+      padding: 50px;
+  }
+  .spa_types_pri{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .spa_para{
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .spa_para h3{
+      font-size: 25px;
+  }
+  
+  @media only screen and (max-width: 768px){
+      .spa_types{
+          height: 270vh;
+      }
+      .spa_types_text{
+          margin: 7px 10px;
+          padding: 10px;
+      }
+      .spa_types_pri{
+          flex-direction: column;
+      }
+  }

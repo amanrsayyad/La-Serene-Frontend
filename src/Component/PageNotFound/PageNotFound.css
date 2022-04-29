@@ -1,0 +1,33 @@
+.notfoundpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.notfoundpage > img {
+    width: 400px;
+    height: 400px;
+}
+.notfoundpage > p {
+    color: gray;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1.3px;
+}
+.notfoundpage > p > a{
+    color: blue;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1.3px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .notfoundpage > p {
+        text-align: center;
+    }
+}
